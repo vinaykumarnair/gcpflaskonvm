@@ -15,7 +15,7 @@ sudo apt-get install python3
 #
 # Install python pip
 #
-sudo apt-get install python-pip3
+sudo apt-get install python3-pip
 
 #
 # Install git 
