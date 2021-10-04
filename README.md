@@ -2,7 +2,7 @@ Add a Flask based web app to GCP Shell
 
 1) Just basic flask program
 
-'''python
+```python
 # File name: hello.py 
 from flask import Flask, render_template # include the flask library 
 
@@ -14,7 +14,7 @@ def index():
 
 if __name__ == '__main__': 
    app.run(host='0.0.0.0') # application will start listening for web request on port 5000
-'''
+```
 
 2) Open google shell and clone this repository
 **git clone https://github.com/vinaykumarnair/gcpvmflaskserver.git**
