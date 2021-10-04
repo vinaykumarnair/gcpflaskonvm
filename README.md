@@ -17,14 +17,13 @@ if __name__ == '__main__':
 ```
 
 2) Open google shell and clone this repository
-**git clone https://github.com/vinaykumarnair/gcpvmflaskserver.git**
+**git clone https://github.com/vinaykumarnair/gcpvmflaskonvm.git**
 
-<img width="1440" alt="Screenshot 2021-09-22 at 9 37 26 AM" src="https://user-images.githubusercontent.com/21003585/134285296-aae18d0e-dff0-45bc-a76a-547aa2dfe370.png">
+
 
 
 3) Go into the gcpvmflaskserver folder
 
-<img width="1440" alt="Screenshot 2021-09-22 at 9 38 06 AM" src="https://user-images.githubusercontent.com/21003585/134285533-3fcabcb9-a801-4098-8739-435b0e3da51c.png">
 
 
 4) Install the required packages by below command on shell
