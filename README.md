@@ -96,7 +96,11 @@ cd gcpflaskonvm
  * Debug mode: off
  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 ```
+12) Copy the external IP of the instance and access post 5000 as below
+```comment
+34.138.149.22:5000 <externalip:5000>
+```
+13) The webserver should be up and running
 
-
-
+<img width="1440" alt="Screenshot 2021-10-13 at 6 55 45 AM" src="https://user-images.githubusercontent.com/21003585/137050855-214cdf44-aed5-4a41-a7cc-2d917e4988c2.png">
 
