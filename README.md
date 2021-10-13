@@ -65,21 +65,25 @@ git --version
 7) Clone below repositery
 
 ```shell
-git clone https://github.com/vinaykumarnair/gcpvmflaskonvm.git
+https://github.com/vinaykumarnair/gcpflaskonvm.git
 ```
 
+8) Go into the gcpflaskonvm folder
 
+```shell
+cd gcpflaskonvm
+```
 
+9) Install the required pyhton packages by below command
 
-3) Go into the gcpvmflaskserver folder
+```shell
+   pip install -r requirement.txt
+```
+10) run the hello.py to start the web server
 
-
-
-4) Install the required packages by below command on shell
-   **pip install -r requirement.txt**
-   
-   run on shell 
-   **python hello.py**
+```shell
+   python hello.py
+```
    
 <img width="1440" alt="Screenshot 2021-09-22 at 10 17 34 AM" src="https://user-images.githubusercontent.com/21003585/134285693-81e87ba5-aa52-427d-a0d0-ec85cbb735dd.png">
 
