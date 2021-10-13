@@ -25,7 +25,8 @@ gcloud compute instances create gcp-vm-instance-1 --project=gcp-flask-serv-02 --
 3) Set firewall rule as shown below
 Name: gcp-vm-instance-1 , source filter : IP ranges 0.0.0.0/0, open TCP port 5000
 
-4)  SSH into your VM instance and use command nano update.sh , this will open a blank file. Copy below code into it and save
+4)  SSH into your VM instance and use command nano update.sh , this will open a blank file. Copy below code into it and save. This will install all the necessary software required .
+
 ```shell
 #! /bin/bash
 
@@ -52,11 +53,20 @@ sudo apt-get install python3-pip
 sudo apt-get install git
 ```
 
+6) Check if python and git are installed using below commands
+```shell
+python3 --version
+```
 
+```shell
+git --version
+```
 
+7) Clone below repositery
 
-5) Open google shell and clone this repository
-**git clone https://github.com/vinaykumarnair/gcpvmflaskonvm.git**
+```shell
+git clone https://github.com/vinaykumarnair/gcpvmflaskonvm.git
+```
 
 
 
