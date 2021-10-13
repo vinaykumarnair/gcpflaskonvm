@@ -16,6 +16,12 @@ if __name__ == '__main__':
    app.run(host='0.0.0.0') # application will start listening for web request on port 5000
 ```
 
+2) Create a new Gcloud VM instance with below command on Google cloud shell
+
+```shell
+gcloud compute instances create gcp-vm-instance-1 --project=gcp-flask-serv-02 --zone=us-east1-b --machine-type=f1-micro --network-interface=network-tier=PREMIUM,subnet=default --maintenance-policy=MIGRATE --service-account=773175670425-compute@developer.gserviceaccount.com --scopes=https://www.googleapis.com/auth/devstorage.read_only,https://www.googleapis.com/auth/logging.write,https://www.googleapis.com/auth/monitoring.write,https://www.googleapis.com/auth/servicecontrol,https://www.googleapis.com/auth/service.management.readonly,https://www.googleapis.com/auth/trace.append --tags=http-server --create-disk=auto-delete=yes,boot=yes,device-name=gcp-vm-instance-1,image=projects/debian-cloud/global/images/debian-10-buster-v20210916,mode=rw,size=10,type=projects/gcp-flask-serv-02/zones/us-west4-b/diskTypes/pd-balanced --no-shielded-secure-boot --shielded-vtpm --shielded-integrity-monitoring --reservation-affinity=any
+```
+
 2) Open google shell and clone this repository
 **git clone https://github.com/vinaykumarnair/gcpvmflaskonvm.git**
 
