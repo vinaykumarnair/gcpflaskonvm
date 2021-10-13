@@ -77,17 +77,26 @@ cd gcpflaskonvm
 9) Install the required pyhton packages by below command
 
 ```shell
-   pip install -r requirement.txt
+   pip3 install -r requirement.txt
 ```
 10) run the hello.py to start the web server
 
 ```shell
-   python hello.py
+   python3 hello.py
 ```
-   
-<img width="1440" alt="Screenshot 2021-09-22 at 10 17 34 AM" src="https://user-images.githubusercontent.com/21003585/134285693-81e87ba5-aa52-427d-a0d0-ec85cbb735dd.png">
+  
+11) You will see a message like this
 
-5) Click on web preview port 5001
-<img width="1440" alt="Screenshot 2021-09-22 at 2 14 19 PM" src="https://user-images.githubusercontent.com/21003585/134312257-e7c5b3a4-39fe-4ec8-9007-b4893f72f2b5.png">
+```comment
+
+ * Serving Flask app "hello" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+```
+
+
 
 
